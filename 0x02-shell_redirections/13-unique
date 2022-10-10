@@ -1,2 +1,2 @@
 #!/bin/bash
-cat sample_data.txt | sort | uniq | pr 
+cat sample_data.txt | fmt -w 1 | sort | uniq | pr 
