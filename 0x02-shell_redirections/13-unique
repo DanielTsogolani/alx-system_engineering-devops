@@ -1,2 +1,2 @@
 #!/bin/bash
-cat sample_data.txt | tr -s '''\n' | fmt -w 1 | sort -u 
+sort | uniq -u
